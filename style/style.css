@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat, sans-serif";
+}
+body{
+    background-color: #e8E8E7 ;
+}
+
+.fundo {
+    background-color: #E8E8E7;
+    margin-bottom: 25px
+    
+    
+}
+
+.container{
+    padding: 0 5%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.fundo .container nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+.container nav .logo{
+    font-size: 80px;
+    background-color: #E8E8E7;
+    border-radius: 5px;
+    color: #787367;
+      
+   
+}
+
+
+
+.container nav .ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.container nav .ul li{
+    margin: 0 35px;
+    font-size: 18px;
+}
+
+.fundo .container nav .ul li a{
+    color: #2F2E32;
+    text-decoration: none;
+}
+
+.fundo .container nav .ul li a:hover{
+    color: #706F70;
+}
+
+.botao{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F9B101;
+    font-size: 16px;
+    
+    
+}
+
+.botao:hover{
+    box-shadow: #787367 0px 30px 60px -12px inset, #787367 0px 18px 36px -18px inset;
+    transition: 0.4s;
+}
+
+.container .main-text{
+    color: #706F70;
+
+}
+
+.container .main-text h1, span{
+    text-transform: uppercase;
+    padding: 5px 0;
+    margin: 20px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 799;
+    
+}
+
+
+
+.container .main-text p{
+    margin: 2px 0;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+
+main .container{
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+
+
+
+
+main .container .main-text .batoes{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+    height: 72%;
+}
+
+
+
+.container .main-text .batoes .sudeste, .centro-oeste, .nordeste, .sul, .norte{
+    margin: 0 10px;
+    padding: 10px 19px;
+    border-radius: 5px;
+    background-color: #F9B101;  
+    border: none;
+    cursor: pointer;
+    background-image:linear-gradient(#f9b101, #d6d31d)
+
+}
+
+.centro-oeste:hover, .nordeste:hover, .sul:hover, .norte:hover, .sudeste:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+
+ main .container .main-img img{
+    border-top: 1px solid;
+    border-right: 1px solid;
+    height: 485px;
+    width: 100%;
+   
+        
+    
+}
+ main .container .main-img{
+    display: flex;
+    justify-content: end; 
+    align-items: self-end;  
+    width: 45%;
+    
+   
+}
+
+.conteudo{
+    background-color: #E8E8E7;
+    padding: 0 5%;
+    max-width: 1440px;
+    margin: 0px auto;
+
+   
+   
+}
+
+.conteudo .container .vendas h1{                                                         /* talvez eu mude esse h1*/
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+
+.conteudo .container section {
+    color: #706F70;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 50px;   
+    
+}
+
+
+.conteudo .container .beneficios{
+    font-family: sans-serif;
+    font-size: 20px;
+  
+}
+.conteudo .container .brasil{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 5px;
+}
+
+
+.conteudo .container .brasil img{
+   height: 500px;
+   width: 650px;
+   margin-bottom: 50px;
+   border-bottom: 1px solid #F9B101;
+   border-right: 1px solid #F9B101;
+   
+}
+
+.main-img img:hover{
+    box-shadow: #706F70 0px 2px 1px, #787367 0px 4px 2px, #787367 0px 8px 4px, #787367 0px 16px 8px, #787367 0px 32px 16px;
+    transition: 0.9s;
+}
+
+.brasil img:hover{
+    box-shadow: #706F70 0px 2px 1px, #787367 0px 4px 2px, #787367 0px 8px 4px, #787367 0px 16px 8px, #787367 0px 32px 16px;
+    transition: 0.9s
+}
+
+.cards .tec{
+    
+    height: 365px;
+    width: 250px;
+    float: left;
+    margin: 15px 35px;
+    margin-bottom: 140px;
+}
+
+.cards .container img{
+    height: 180px;
+    width: 185px;
+    display: block;
+    margin: auto;
+
+}
+
+.cards .tec h3{
+    margin: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #787367;
+}
+
+.cards .tec p{
+    text-align: justify;
+    font-family: sans-serif;
+    color: #706F70;
+}
+
+.cards .tec:hover{
+    box-shadow: 0px 5px 0px  #F9B101;
+    transition: 0.8s;
+}
+
+.artigos{
+    clear: both;
+    background-image: url(../img/close-up-pen-with-notebook.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 265px;
+    padding: 0 4%;
+    
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.leia{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    
+}
+
+.leia a button{
+    padding: 15px 30px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: rgb(192, 184, 184);;
+}
+
+.dezenas {
+    font-size: 30px;
+    font-family: sans-serif;
+    border: solid;
+    background-color: rgb(192, 184, 184);
+    border-radius: 10px;
+    
+}
+
+.leia a button:hover{
+    background-color: #F9B101;
+    transition: 0.5s;
+}
+
+footer  {
+    clear: both;
+    background-color: #706F70;
+    padding: 2% 5%;
+    
+    
+    
+}
+
+footer .container{
+    display: flex;
+}
+
+footer .container .ul{
+   display: flex;
+   justify-content: center;
+   width: 25%;
+  
+}
+
+footer .container .matriz{
+    display: flex;
+    justify-content: end;
+    width: 25%;   
+    
+}
+.matriz  a{
+    color: #E8E8E7;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+}
+
+.matriz a:hover{
+    color:#F9B101;
+    transition: 0.5s;
+    
+}
+
+.abrimos{
+    font-size: 28px;
+    color: #E8E8E7;
+    text-align: center;
+    
+}
+
+.ul .li{
+    margin-left: 20px; 
+    list-style: square;  
+    color: #E8E8E7;
+
+}
+
+.ul .li a{
+    color: #E8E8E7;
+    text-decoration: none;
+
+}
+
+.li a:hover{
+    color: #F9B101;
+    
+}
+
+.redes .sociais img{
+      height: 50px;
+      width: 50px;
+}
+
+.container .redes{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+
+.container .redes .sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+    
+}
+
+.redes h4{
+    text-align: center;
+    color: #E8E8E7;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+ 
+
+
+
+
+
+
+
